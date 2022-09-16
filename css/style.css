@@ -1,0 +1,45 @@
+
+ 
+@media (max-width: 576px)   {
+      label {
+            font-size: 16px; 
+        font-weight: 500; 
+        text-transform: uppercase;
+     color: aliceblue;
+      }
+      .table
+{
+width: 100%;
+font-size: 13px;
+}     
+
+button{
+      margin-bottom: 7px;;
+}
+span {
+      font-size: 10px;
+}
+}
+
+@media (min-width: 577px){
+     label{
+ 
+    /* font-size: 25px; */
+    font-weight: 500; 
+    text-transform: uppercase;
+
+    color: aliceblue;
+   
+ }  
+}
+
+
+     
+
+body {
+     background-color: rgba(0, 0, 0, 0.945); 
+  
+}
+table{
+      text-align: center;
+}

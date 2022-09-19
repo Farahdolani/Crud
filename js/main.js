@@ -6,7 +6,7 @@ var addbtn = document.getElementById("click");
 var data = document.getElementById("data");
 var delbtn = document.getElementById( "delbtn");
 var cSearch = document.getElementById("cSearch");
-var btnupdate =document.getElementById("")
+var btnupdate =document.getElementById("btnupdate")
 if ( localStorage.getItem("coursesList") == null ){
      var courses=[]; 
 }
@@ -17,9 +17,9 @@ if ( localStorage.getItem("coursesList") == null ){
      display();
  }
 
-var courses=[]; 
- var courses =  JSON.parse(localStorage.getItem("coursesList")) ;
- display();
+
+ //var courses =  JSON.parse(localStorage.getItem("coursesList")) ;
+//  display();
 
 addbtn.onclick = function (){
 if ( addbtn.innerHTML== 'Add Course')
@@ -73,7 +73,7 @@ if ( addbtn.innerHTML== 'Add Course')
  function  display(){
      var r ="";
  
-      for ( var i = 0; i< courses.length; i++){
+      for ( var i = 0; i< courses.length  ; i++){
          r += 
  `<tr>
       <td> ${i}</td>
